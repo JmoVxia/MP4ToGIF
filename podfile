@@ -1,0 +1,7 @@
+target 'MP4ToGIF' do
+
+pod 'SnapKit'
+pod 'DateToolsSwift'
+
+end
+

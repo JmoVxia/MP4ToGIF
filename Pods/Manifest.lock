@@ -1,0 +1,20 @@
+PODS:
+  - DateToolsSwift (5.0.0)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - DateToolsSwift
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - DateToolsSwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  DateToolsSwift: 4207ada6ad615d8dc076323d27037c94916dbfa6
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: d7ac342980bf5dccc9df63eee10b84d50c18aa96
+
+COCOAPODS: 1.10.1

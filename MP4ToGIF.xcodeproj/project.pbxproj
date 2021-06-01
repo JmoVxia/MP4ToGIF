@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B5D2DB52500E281004EE93D /* DragInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D2DB42500E281004EE93D /* DragInView.swift */; };
+		5B6DD7B52500DED300DF0AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6DD7B42500DED300DF0AEB /* AppDelegate.swift */; };
+		5B6DD7B72500DED300DF0AEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6DD7B62500DED300DF0AEB /* ViewController.swift */; };
+		5B6DD7B92500DED400DF0AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6DD7B82500DED400DF0AEB /* Assets.xcassets */; };
+		5B6DD7BC2500DED400DF0AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6DD7BA2500DED400DF0AEB /* Main.storyboard */; };
+		5BE58AB1265F2AEE00A816D3 /* MP4ToGIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE58AB0265F2AEE00A816D3 /* MP4ToGIF.swift */; };
+		5BE58AB3265F3CD500A816D3 /* OnlyIntegerValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE58AB2265F3CD500A816D3 /* OnlyIntegerValueFormatter.swift */; };
+		BB36C0D6924B14FF13AE0AE5 /* libPods-MP4ToGIF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E311B3C5F169FAF8DBD6093B /* libPods-MP4ToGIF.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		043C4E3C223B7808E2F78C52 /* Pods-GIF2MP4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIF2MP4.release.xcconfig"; path = "Target Support Files/Pods-GIF2MP4/Pods-GIF2MP4.release.xcconfig"; sourceTree = "<group>"; };
+		2F1FDAB54CEB76464F43DF9E /* Pods-MP4ToGIF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MP4ToGIF.release.xcconfig"; path = "Target Support Files/Pods-MP4ToGIF/Pods-MP4ToGIF.release.xcconfig"; sourceTree = "<group>"; };
+		3094788AB973F58FCD89F8A4 /* Pods-CKDLogDecrypt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKDLogDecrypt.release.xcconfig"; path = "Target Support Files/Pods-CKDLogDecrypt/Pods-CKDLogDecrypt.release.xcconfig"; sourceTree = "<group>"; };
+		3BB1B5F235378559C71D8A8D /* Pods-MP4ToGIF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MP4ToGIF.debug.xcconfig"; path = "Target Support Files/Pods-MP4ToGIF/Pods-MP4ToGIF.debug.xcconfig"; sourceTree = "<group>"; };
+		5B5D2DB42500E281004EE93D /* DragInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragInView.swift; sourceTree = "<group>"; };
+		5B6DD7B12500DED300DF0AEB /* MP4ToGIF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MP4ToGIF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6DD7B42500DED300DF0AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B6DD7B62500DED300DF0AEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B6DD7B82500DED400DF0AEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B6DD7BB2500DED400DF0AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BB789042505CF3200B56F2C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE58AB0265F2AEE00A816D3 /* MP4ToGIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MP4ToGIF.swift; sourceTree = "<group>"; };
+		5BE58AB2265F3CD500A816D3 /* OnlyIntegerValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyIntegerValueFormatter.swift; sourceTree = "<group>"; };
+		6E8B3392654FEEC8E000A54A /* Pods-CKDDecrypt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKDDecrypt.release.xcconfig"; path = "Target Support Files/Pods-CKDDecrypt/Pods-CKDDecrypt.release.xcconfig"; sourceTree = "<group>"; };
+		A2C79F56C47BE10F2C29C664 /* Pods-CKDLogDecrypt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKDLogDecrypt.debug.xcconfig"; path = "Target Support Files/Pods-CKDLogDecrypt/Pods-CKDLogDecrypt.debug.xcconfig"; sourceTree = "<group>"; };
+		B605EB7D8F287FA22A6017B7 /* Pods-CKDDecrypt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKDDecrypt.debug.xcconfig"; path = "Target Support Files/Pods-CKDDecrypt/Pods-CKDDecrypt.debug.xcconfig"; sourceTree = "<group>"; };
+		B6AD27E227B6208F7C1D75B3 /* Pods-GIF2MP4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIF2MP4.debug.xcconfig"; path = "Target Support Files/Pods-GIF2MP4/Pods-GIF2MP4.debug.xcconfig"; sourceTree = "<group>"; };
+		E311B3C5F169FAF8DBD6093B /* libPods-MP4ToGIF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MP4ToGIF.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B6DD7AE2500DED300DF0AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB36C0D6924B14FF13AE0AE5 /* libPods-MP4ToGIF.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B6DD7A82500DED300DF0AEB = {
+			isa = PBXGroup;
+			children = (
+				5B6DD7B32500DED300DF0AEB /* MP4ToGIF */,
+				5B6DD7B22500DED300DF0AEB /* Products */,
+				B773B5172EFB1E4E2DACC809 /* Pods */,
+				736B1F49F289D0F30F620AA3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B6DD7B22500DED300DF0AEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B6DD7B12500DED300DF0AEB /* MP4ToGIF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B6DD7B32500DED300DF0AEB /* MP4ToGIF */ = {
+			isa = PBXGroup;
+			children = (
+				5B6DD7B42500DED300DF0AEB /* AppDelegate.swift */,
+				5B6DD7B62500DED300DF0AEB /* ViewController.swift */,
+				5BE58AB0265F2AEE00A816D3 /* MP4ToGIF.swift */,
+				5B5D2DB42500E281004EE93D /* DragInView.swift */,
+				5BE58AB2265F3CD500A816D3 /* OnlyIntegerValueFormatter.swift */,
+				5B6DD7B82500DED400DF0AEB /* Assets.xcassets */,
+				5B6DD7BA2500DED400DF0AEB /* Main.storyboard */,
+				5BB789042505CF3200B56F2C /* Info.plist */,
+			);
+			path = MP4ToGIF;
+			sourceTree = "<group>";
+		};
+		736B1F49F289D0F30F620AA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E311B3C5F169FAF8DBD6093B /* libPods-MP4ToGIF.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B773B5172EFB1E4E2DACC809 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2C79F56C47BE10F2C29C664 /* Pods-CKDLogDecrypt.debug.xcconfig */,
+				3094788AB973F58FCD89F8A4 /* Pods-CKDLogDecrypt.release.xcconfig */,
+				B605EB7D8F287FA22A6017B7 /* Pods-CKDDecrypt.debug.xcconfig */,
+				6E8B3392654FEEC8E000A54A /* Pods-CKDDecrypt.release.xcconfig */,
+				B6AD27E227B6208F7C1D75B3 /* Pods-GIF2MP4.debug.xcconfig */,
+				043C4E3C223B7808E2F78C52 /* Pods-GIF2MP4.release.xcconfig */,
+				3BB1B5F235378559C71D8A8D /* Pods-MP4ToGIF.debug.xcconfig */,
+				2F1FDAB54CEB76464F43DF9E /* Pods-MP4ToGIF.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B6DD7B02500DED300DF0AEB /* MP4ToGIF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B6DD7C12500DED400DF0AEB /* Build configuration list for PBXNativeTarget "MP4ToGIF" */;
+			buildPhases = (
+				46FDFF882CDFF44A243896C8 /* [CP] Check Pods Manifest.lock */,
+				5B6DD7AD2500DED300DF0AEB /* Sources */,
+				5B6DD7AE2500DED300DF0AEB /* Frameworks */,
+				5B6DD7AF2500DED300DF0AEB /* Resources */,
+				B5D0FD94B35178588DE53FEE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MP4ToGIF;
+			productName = CKDLogDecrypt;
+			productReference = 5B6DD7B12500DED300DF0AEB /* MP4ToGIF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B6DD7A92500DED300DF0AEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1210;
+				ORGANIZATIONNAME = "Chen JmoVxia";
+				TargetAttributes = {
+					5B6DD7B02500DED300DF0AEB = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 5B6DD7AC2500DED300DF0AEB /* Build configuration list for PBXProject "MP4ToGIF" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B6DD7A82500DED300DF0AEB;
+			productRefGroup = 5B6DD7B22500DED300DF0AEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B6DD7B02500DED300DF0AEB /* MP4ToGIF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B6DD7AF2500DED300DF0AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6DD7B92500DED400DF0AEB /* Assets.xcassets in Resources */,
+				5B6DD7BC2500DED400DF0AEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46FDFF882CDFF44A243896C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MP4ToGIF-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5D0FD94B35178588DE53FEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MP4ToGIF/Pods-MP4ToGIF-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MP4ToGIF/Pods-MP4ToGIF-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MP4ToGIF/Pods-MP4ToGIF-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B6DD7AD2500DED300DF0AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5D2DB52500E281004EE93D /* DragInView.swift in Sources */,
+				5B6DD7B72500DED300DF0AEB /* ViewController.swift in Sources */,
+				5B6DD7B52500DED300DF0AEB /* AppDelegate.swift in Sources */,
+				5BE58AB3265F3CD500A816D3 /* OnlyIntegerValueFormatter.swift in Sources */,
+				5BE58AB1265F2AEE00A816D3 /* MP4ToGIF.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B6DD7BA2500DED400DF0AEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B6DD7BB2500DED400DF0AEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B6DD7BF2500DED400DF0AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CKDDecrypt/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B6DD7C02500DED400DF0AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CKDDecrypt/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5B6DD7C22500DED400DF0AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB1B5F235378559C71D8A8D /* Pods-MP4ToGIF.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 533J5B8T42;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/MP4ToGIF/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Demo.com.MP4ToGIF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5B6DD7C32500DED400DF0AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F1FDAB54CEB76464F43DF9E /* Pods-MP4ToGIF.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 533J5B8T42;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/MP4ToGIF/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Demo.com.MP4ToGIF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B6DD7AC2500DED300DF0AEB /* Build configuration list for PBXProject "MP4ToGIF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B6DD7BF2500DED400DF0AEB /* Debug */,
+				5B6DD7C02500DED400DF0AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B6DD7C12500DED400DF0AEB /* Build configuration list for PBXNativeTarget "MP4ToGIF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B6DD7C22500DED400DF0AEB /* Debug */,
+				5B6DD7C32500DED400DF0AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B6DD7A92500DED300DF0AEB /* Project object */;
+}
